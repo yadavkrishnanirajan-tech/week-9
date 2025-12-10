@@ -1,0 +1,35 @@
+body {
+  background: #d2ccc5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.Calculator {
+  width: 400px;
+  position: relative;
+  margin: 25px;
+}
+
+.ButtonStyle {
+  background-color: #0997f5;
+  border: none;
+  color: white;
+  height: 60px;
+  width: 60px;
+  margin: 3px;
+  text-align: center;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.screen-row input {
+  width: 250px;
+  height: 40px;
+  background: rgb(133, 32, 32);
+  border: none;
+  color: white;
+  padding: 10px;
+  font-size: 20px;
+}
